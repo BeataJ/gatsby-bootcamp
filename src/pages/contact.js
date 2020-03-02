@@ -1,5 +1,7 @@
 import React from "react"
 
+import Footer from "./components/footer"
+
 const contact = () => {
   return (
     <div>
@@ -8,7 +10,7 @@ const contact = () => {
       <a href="https://twitter.com/JackPosobiec" target="_blank">
         link
       </a>
-      <hr />
+      <Footer />
     </div>
   )
 }
