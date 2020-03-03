@@ -12,7 +12,7 @@ const Header = () => {
         </Link>
       </h2>
       <nav>
-        <ul>
+        <ul className={headerStyles.navList}>
           <li>
             <Link className={headerStyles.link} to="/">
               Home
