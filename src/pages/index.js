@@ -7,7 +7,7 @@ import Head from "../components/head"
 const index = () => {
   return (
     <Layout>
-      <Head />
+      <Head title="Home" />
       <h1>Hello</h1>
       <h2>
         I'm Andrew, a full-stock developer living in beautiful Philadelphia
